@@ -12,7 +12,7 @@ importers:
         specifier: ^8.0.0
         version: 8.7.6
 
-  hello-world:
+  1-hello-world:
     devDependencies:
       '@babel/core':
         specifier: ^7.22.10
@@ -28,7 +28,7 @@ importers:
         version: 29.5.5
       '@types/node':
         specifier: ^20.5.6
-        version: 20.6.2
+        version: 20.6.3
       babel-jest:
         specifier: ^29.6.4
         version: 29.7.0(@babel/core@7.22.20)
@@ -40,9 +40,9 @@ importers:
         version: 8.49.0
       jest:
         specifier: ^29.6.3
-        version: 29.7.0(@types/node@20.6.2)
+        version: 29.7.0(@types/node@20.6.3)
 
-  lasagna:
+  10-lucky-numbers:
     devDependencies:
       '@babel/core':
         specifier: ^7.22.10
@@ -58,7 +58,7 @@ importers:
         version: 29.5.5
       '@types/node':
         specifier: ^20.5.6
-        version: 20.6.2
+        version: 20.6.3
       babel-jest:
         specifier: ^29.6.4
         version: 29.7.0(@babel/core@7.22.20)
@@ -70,7 +70,4177 @@ importers:
         version: 8.49.0
       jest:
         specifier: ^29.6.3
-        version: 29.7.0(@types/node@20.6.2)
+        version: 29.7.0(@types/node@20.6.3)
+
+  100-binary-search:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  101-circular-buffer:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  102-simple-linked-list:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  103-word-search:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  104-variable-length-quantity:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  105-two-bucket:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  106-alphametics:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  107-connect:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  108-bowling:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  109-strain:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  11-elyses-analytic-enchantments:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  110-flatten-array:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  111-nth-prime:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  112-sieve:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  113-rotational-cipher:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  114-diffie-hellman:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  115-affine-cipher:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  116-atbash-cipher:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  117-crypto-square:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  118-robot-simulator:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  119-kindergarten-garden:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  12-elyses-destructured-enchantments:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  120-sum-of-multiples:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  121-change:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  122-protein-translation:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  123-armstrong-numbers:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  124-dnd-character:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  125-run-length-encoding:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  126-darts:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  127-roman-numerals:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  128-square-root:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  129-all-your-base:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  13-elyses-looping-enchantments:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  130-minesweeper:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  131-queen-attack:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  132-react:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  133-zipper:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  134-zebra-puzzle:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  135-tournament:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  136-rail-fence-cipher:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  137-rest-api:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  138-go-counting:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  139-knapsack:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  14-amusement-park:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  140-satellite:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  141-poker:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  15-pizza-order:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  16-coordinate-transformation:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  17-fruit-picker:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  18-translation-service:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  19-high-score-board:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  2-lasagna:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  20-ozans-playlist:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  21-lasagna-master:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  22-factory-sensors:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  23-elyses-transformative-enchantments:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  24-custom-signs:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  25-windowing-system:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  26-regular-chatbot:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  27-two-fer:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  28-resistor-color:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  29-resistor-color-duo:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  3-annalyns-infiltration:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  30-gigasecond:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  31-rna-transcription:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  32-space-age:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  33-pangram:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  34-matrix:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  35-bob:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  36-book-store:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  37-pascals-triangle:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  38-linked-list:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  39-grade-school:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  4-freelancer-rates:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  40-list-ops:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  41-robot-name:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  42-simple-cipher:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  43-wordy:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  44-secret-handshake:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  45-leap:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  46-reverse-string:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  47-collatz-conjecture:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  48-triangle:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  49-clock:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  5-poetry-club-door-policy:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  50-meetup:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  51-etl:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  52-hamming:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  53-raindrops:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  54-nucleotide-count:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  55-scrabble-score:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  56-allergies:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  57-word-count:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  58-bank-account:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  59-difference-of-squares:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  6-elyses-enchantments:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  60-perfect-numbers:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  61-complex-numbers:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  62-luhn:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  63-prime-factors:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  64-grains:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  65-pythagorean-triplet:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  66-palindrome-products:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  67-anagram:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  68-acronym:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  69-high-scores:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  7-vehicle-purchase:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  70-isogram:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  71-matching-brackets:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  72-phone-number:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  73-scale-generator:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  74-series:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  75-largest-series-product:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  76-transpose:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  77-grep:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  78-rectangles:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  79-spiral-matrix:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  8-bird-watcher:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  80-ocr-numbers:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  81-saddle-points:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  82-forth:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  83-food-chain:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  84-house:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  85-isbn-verifier:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  86-pig-latin:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  87-proverb:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  88-twelve-days:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  89-promises:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  9-mixed-juices:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  90-yacht:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  91-beer-song:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  92-resistor-color-trio:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  93-dominoes:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  94-say:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  95-diamond:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  96-rational-numbers:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  97-sublist:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  98-binary-search-tree:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
+
+  99-custom-set:
+    devDependencies:
+      '@babel/core':
+        specifier: ^7.22.10
+        version: 7.22.20
+      '@exercism/babel-preset-javascript':
+        specifier: ^0.2.1
+        version: 0.2.1
+      '@exercism/eslint-config-javascript':
+        specifier: ^0.6.0
+        version: 0.6.0(@babel/core@7.22.20)(eslint@8.49.0)
+      '@types/jest':
+        specifier: ^29.5.4
+        version: 29.5.5
+      '@types/node':
+        specifier: ^20.5.6
+        version: 20.6.3
+      babel-jest:
+        specifier: ^29.6.4
+        version: 29.7.0(@babel/core@7.22.20)
+      core-js:
+        specifier: ~3.32.1
+        version: 3.32.2
+      eslint:
+        specifier: ^8.49.0
+        version: 8.49.0
+      jest:
+        specifier: ^29.6.3
+        version: 29.7.0(@types/node@20.6.3)
 
 packages:
 
@@ -1438,7 +5608,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.6.2
+      '@types/node': 20.6.3
       chalk: 4.1.2
       jest-message-util: 29.7.0
       jest-util: 29.7.0
@@ -1459,14 +5629,14 @@ packages:
       '@jest/test-result': 29.7.0
       '@jest/transform': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.6.2
+      '@types/node': 20.6.3
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       ci-info: 3.8.0
       exit: 0.1.2
       graceful-fs: 4.2.11
       jest-changed-files: 29.7.0
-      jest-config: 29.7.0(@types/node@20.6.2)
+      jest-config: 29.7.0(@types/node@20.6.3)
       jest-haste-map: 29.7.0
       jest-message-util: 29.7.0
       jest-regex-util: 29.6.3
@@ -1494,7 +5664,7 @@ packages:
     dependencies:
       '@jest/fake-timers': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.6.2
+      '@types/node': 20.6.3
       jest-mock: 29.7.0
     dev: true
 
@@ -1521,7 +5691,7 @@ packages:
     dependencies:
       '@jest/types': 29.6.3
       '@sinonjs/fake-timers': 10.3.0
-      '@types/node': 20.6.2
+      '@types/node': 20.6.3
       jest-message-util: 29.7.0
       jest-mock: 29.7.0
       jest-util: 29.7.0
@@ -1554,7 +5724,7 @@ packages:
       '@jest/transform': 29.7.0
       '@jest/types': 29.6.3
       '@jridgewell/trace-mapping': 0.3.19
-      '@types/node': 20.6.2
+      '@types/node': 20.6.3
       chalk: 4.1.2
       collect-v8-coverage: 1.0.2
       exit: 0.1.2
@@ -1642,7 +5812,7 @@ packages:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.4
       '@types/istanbul-reports': 3.0.1
-      '@types/node': 20.6.2
+      '@types/node': 20.6.3
       '@types/yargs': 17.0.24
       chalk: 4.1.2
     dev: true
@@ -1752,7 +5922,7 @@ packages:
   /@types/graceful-fs@4.1.6:
     resolution: {integrity: sha512-Sig0SNORX9fdW+bQuTEovKj3uHcUL6LQKbCrrqb1X7J6/ReAbhCXRAhc+SMejhLELFj2QcyuxmUooZ4bt5ReSw==}
     dependencies:
-      '@types/node': 20.6.2
+      '@types/node': 20.6.3
     dev: true
 
   /@types/istanbul-lib-coverage@2.0.4:
@@ -1782,8 +5952,8 @@ packages:
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
     dev: true
 
-  /@types/node@20.6.2:
-    resolution: {integrity: sha512-Y+/1vGBHV/cYk6OI1Na/LHzwnlNCAfU3ZNGrc1LdRe/LAIbdDPTTv/HU3M7yXN448aTVDq3eKRm2cg7iKLb8gw==}
+  /@types/node@20.6.3:
+    resolution: {integrity: sha512-HksnYH4Ljr4VQgEy2lTStbCKv/P590tmPe5HqOnv9Gprffgv5WXAY+Y5Gqniu0GGqeTCUdBnzC3QSrzPkBkAMA==}
     dev: true
 
   /@types/stack-utils@2.0.1:
@@ -2239,7 +6409,7 @@ packages:
     requiresBuild: true
     dev: true
 
-  /create-jest@29.7.0(@types/node@20.6.2):
+  /create-jest@29.7.0(@types/node@20.6.3):
     resolution: {integrity: sha512-Adz2bdH0Vq3F53KEMJOoftQFutWCukm6J24wbPWRO4k1kMY7gS7ds/uoJkNuV8wDCtWWnuwGcJwpWcih+zEW1Q==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     hasBin: true
@@ -2248,7 +6418,7 @@ packages:
       chalk: 4.1.2
       exit: 0.1.2
       graceful-fs: 4.2.11
-      jest-config: 29.7.0(@types/node@20.6.2)
+      jest-config: 29.7.0(@types/node@20.6.3)
       jest-util: 29.7.0
       prompts: 2.4.2
     transitivePeerDependencies:
@@ -3239,7 +7409,7 @@ packages:
       '@jest/expect': 29.7.0
       '@jest/test-result': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.6.2
+      '@types/node': 20.6.3
       chalk: 4.1.2
       co: 4.6.0
       dedent: 1.5.1
@@ -3260,7 +7430,7 @@ packages:
       - supports-color
     dev: true
 
-  /jest-cli@29.7.0(@types/node@20.6.2):
+  /jest-cli@29.7.0(@types/node@20.6.3):
     resolution: {integrity: sha512-OVVobw2IubN/GSYsxETi+gOe7Ka59EFMR/twOU3Jb2GnKKeMGJB5SGUUrEz3SFVmJASUdZUzy83sLNNQ2gZslg==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     hasBin: true
@@ -3274,10 +7444,10 @@ packages:
       '@jest/test-result': 29.7.0
       '@jest/types': 29.6.3
       chalk: 4.1.2
-      create-jest: 29.7.0(@types/node@20.6.2)
+      create-jest: 29.7.0(@types/node@20.6.3)
       exit: 0.1.2
       import-local: 3.1.0
-      jest-config: 29.7.0(@types/node@20.6.2)
+      jest-config: 29.7.0(@types/node@20.6.3)
       jest-util: 29.7.0
       jest-validate: 29.7.0
       yargs: 17.7.2
@@ -3288,7 +7458,7 @@ packages:
       - ts-node
     dev: true
 
-  /jest-config@29.7.0(@types/node@20.6.2):
+  /jest-config@29.7.0(@types/node@20.6.3):
     resolution: {integrity: sha512-uXbpfeQ7R6TZBqI3/TxCU4q4ttk3u0PJeC+E0zbfSoSjq6bJ7buBPxzQPL0ifrkY4DNu4JUdk0ImlBUYi840eQ==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     peerDependencies:
@@ -3303,7 +7473,7 @@ packages:
       '@babel/core': 7.22.20
       '@jest/test-sequencer': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.6.2
+      '@types/node': 20.6.3
       babel-jest: 29.7.0(@babel/core@7.22.20)
       chalk: 4.1.2
       ci-info: 3.8.0
@@ -3363,7 +7533,7 @@ packages:
       '@jest/environment': 29.7.0
       '@jest/fake-timers': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.6.2
+      '@types/node': 20.6.3
       jest-mock: 29.7.0
       jest-util: 29.7.0
     dev: true
@@ -3379,7 +7549,7 @@ packages:
     dependencies:
       '@jest/types': 29.6.3
       '@types/graceful-fs': 4.1.6
-      '@types/node': 20.6.2
+      '@types/node': 20.6.3
       anymatch: 3.1.3
       fb-watchman: 2.0.2
       graceful-fs: 4.2.11
@@ -3430,7 +7600,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.6.2
+      '@types/node': 20.6.3
       jest-util: 29.7.0
     dev: true
 
@@ -3485,7 +7655,7 @@ packages:
       '@jest/test-result': 29.7.0
       '@jest/transform': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.6.2
+      '@types/node': 20.6.3
       chalk: 4.1.2
       emittery: 0.13.1
       graceful-fs: 4.2.11
@@ -3516,7 +7686,7 @@ packages:
       '@jest/test-result': 29.7.0
       '@jest/transform': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.6.2
+      '@types/node': 20.6.3
       chalk: 4.1.2
       cjs-module-lexer: 1.2.3
       collect-v8-coverage: 1.0.2
@@ -3568,7 +7738,7 @@ packages:
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 20.6.2
+      '@types/node': 20.6.3
       chalk: 4.1.2
       ci-info: 3.8.0
       graceful-fs: 4.2.11
@@ -3593,7 +7763,7 @@ packages:
     dependencies:
       '@jest/test-result': 29.7.0
       '@jest/types': 29.6.3
-      '@types/node': 20.6.2
+      '@types/node': 20.6.3
       ansi-escapes: 4.3.2
       chalk: 4.1.2
       emittery: 0.13.1
@@ -3605,13 +7775,13 @@ packages:
     resolution: {integrity: sha512-eIz2msL/EzL9UFTFFx7jBTkeZfku0yUAyZZZmJ93H2TYEiroIx2PQjEXcwYtYl8zXCxb+PAmA2hLIt/6ZEkPHw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     dependencies:
-      '@types/node': 20.6.2
+      '@types/node': 20.6.3
       jest-util: 29.7.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
     dev: true
 
-  /jest@29.7.0(@types/node@20.6.2):
+  /jest@29.7.0(@types/node@20.6.3):
     resolution: {integrity: sha512-NIy3oAFp9shda19hy4HK0HRTWKtPJmGdnvywu01nOqNC2vZg+Z+fvJDxpMQA88eb2I9EcafcdjYgsDthnYTvGw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
     hasBin: true
@@ -3624,7 +7794,7 @@ packages:
       '@jest/core': 29.7.0
       '@jest/types': 29.6.3
       import-local: 3.1.0
-      jest-cli: 29.7.0(@types/node@20.6.2)
+      jest-cli: 29.7.0(@types/node@20.6.3)
     transitivePeerDependencies:
       - '@types/node'
       - babel-plugin-macros
