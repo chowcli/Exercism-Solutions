@@ -1,0 +1,10 @@
+{
+  "name": "my-monorepo",
+  "private": true,
+  "scripts": {
+    "install-all": "pnpm install --recursive"
+  },
+  "devDependencies": {
+    "pnpm": "^8.0.0"
+  }
+}
